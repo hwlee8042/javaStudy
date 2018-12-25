@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TvTest",
+            "request": "launch",
+            "mainClass": "chapter06.TvTest",
+            "projectName": "Java_Study_1b2af7e6"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
