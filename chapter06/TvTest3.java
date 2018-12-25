@@ -1,6 +1,6 @@
 package chapter06;
 
-class Tv {
+class Tv3 {
     /*
     Date    : 2018-12-24
     Author  : Lee HyeWon
@@ -24,8 +24,8 @@ class Tv {
 
 class TvTest3 {
     public static void main(String[] args) {
-        Tv t1 = new Tv();
-        Tv t2 = new Tv();
+        Tv3 t1 = new Tv3();
+        Tv3 t2 = new Tv3();
         System.out.println("t1의 channel값은 "+ t1.channel + "입니다.");
         System.out.println("t2의 channel값은 "+ t2.channel + "입니다.");
 

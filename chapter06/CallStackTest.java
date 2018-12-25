@@ -5,6 +5,12 @@ class CallStackTest {
     Date   : 2018-12-24
     Author : Lee HyeWon
     */
+    /*
+    메모리 영역
+    - method area   : 클래스, static변수 생성
+    - call stack    : 메모리공간 제공
+    - heap          : 인스턴스가 생성
+    */
     public static void main(String[] args) { // 1. JVM에 의해 main 호출 callstack영역에 main매소드를 위한 메모리 공간 할당
         firstMethod();  //2.firstMethod() 호출 > static 매소드는 객체생성 없이 바로 호출 가능
                         //호출한 상태에서 callStack에 대기상태로 남아있는다.

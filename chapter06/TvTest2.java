@@ -1,6 +1,6 @@
 package chapter06;
 
-class Tv{
+class Tv2{
     /*
     Date    : 2018-12-24
     Author  : Lee HyeWon
@@ -21,8 +21,8 @@ class Tv{
 
 class TvTest2 {
     public static void main(String[] args) {
-        Tv t1 = new Tv();   //Tv t1; t1 = new Tv(); 를 한 문장으로 가능
-        Tv t2 = new Tv();   // t1과 t2는 참조하는 class는 같지만 서로 다른 주소값을 갖는 참조변수가 된다.
+        Tv2 t1 = new Tv2();   //Tv t1; t1 = new Tv(); 를 한 문장으로 가능
+        Tv2 t2 = new Tv2();   // t1과 t2는 참조하는 class는 같지만 서로 다른 주소값을 갖는 참조변수가 된다.
         System.out.println("t1의 channel값은 "+ t1.channel + "입니다.");
         System.out.println("t2의 channel값은 "+ t2.channel + "입니다.");
 

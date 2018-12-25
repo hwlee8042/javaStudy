@@ -10,11 +10,11 @@ class TvTest4 {
     배열 생성 후 객체를 저장하지 않으면 참조변수의 기본값인 null값으로 자동초기화 된다.
     */
     public static void main(String[] args) {
-        Tv[] tvArr = new Tv[3];
+        Tv4[] tvArr = new Tv4[3];
 
         //Tv객체를 생성해서 Tv객체 배열의 각 요소에 저장
         for(int i=0; i<tvArr.length; i++){
-            tvArr[i] = new Tv();
+            tvArr[i] = new Tv4();
             tvArr[i].channel = i + 10; //tvArr[i]의 channel에 i+10을 저장 //tvArr[] = {10, 11, 12}
         }
 
@@ -25,7 +25,7 @@ class TvTest4 {
     }
 }
 
-class Tv {
+class Tv4 {
      //Tv의 속성(멤버변수)
      String color;       //색상
      boolean power;      //전원상태(on/off)
