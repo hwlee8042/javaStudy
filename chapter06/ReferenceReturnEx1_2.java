@@ -2,7 +2,7 @@ package chapter06;
 
 class Data { int x; }
 
-class ReferenceReturnEx {
+class ReferenceReturnEx1_2 {
     /*
     Date   : 2018-12-25
     Author : Lee HyeWon 
